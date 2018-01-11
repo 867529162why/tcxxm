@@ -1,0 +1,30 @@
+.tdjl-m{
+    .search-c1{
+    width: 100%;height: rem(84);
+    background: #00b38a;display: flex;
+    justify-content: space-between;
+    padding: rem(26) rem(15);box-sizing: border-box;
+    align-items: center;color: white;
+    font-size: rem(30);
+    }
+   .search-c2{
+      width: 100%; height: rem(80);
+      background: #f7f7f7;display: flex;
+      justify-content: space-around;
+      margin-bottom: rem(34);
+      align-items: center;font-size: rem(30);
+   }
+   .xian{
+       width: 100%;border-bottom: rem(1) solid #f7f7f7;
+       margin-bottom: rem(33) ;
+   }
+    .syzw{
+        width: 100%;
+        .wrap{
+            padding-left: rem(38);padding-left: rem(38);
+            padding-right:rem(38) ;box-sizing: border-box;
+            
+        }
+        
+    }
+}

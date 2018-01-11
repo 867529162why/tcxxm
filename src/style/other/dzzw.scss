@@ -1,0 +1,27 @@
+.dzzw-z{
+    width: 100%;
+    .dz{
+   font-size: rem(34);width:100%;height:rem(84);background: #00b38a;
+        line-height:rem(84) ;color: red;height: rem(84);
+    }
+    .dz-2{
+        width:100%;height:rem(140);display: flex;
+        border-bottom: rem(0.1) solid;
+        justify-content: space-between;
+        div:nth-of-type(1){
+            font-size: rem(28);
+            height:rem(70);margin-top:rem(40) ;
+            margin-left: rem(40);
+        }
+        div:nth-of-type(2){
+            font-size: rem(34);
+            height:rem(70);margin-top:rem(20);
+            line-height: rem(70);padding-left: rem(32);
+            padding-right: rem(32);border-radius: rem(15);
+            background: #ccc;margin-right: rem(10);
+            a{
+                text-decoration: none;color: black;
+            }
+        }
+    }
+}

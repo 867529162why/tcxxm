@@ -1,0 +1,12 @@
+<div class="searchbody">
+	<section ng-repeat="x in data">
+		<div class="img-a">
+			<img ng-src="{{x.imageUrl}}">
+		</div>
+		<div class="inner-a">
+			<p ng-bind="x.companyName" class="p1"></p>
+			<p><span ng-bind="x.job"></span>[<span ng-bind="x.cityName"></span>]<span ng-bind="x.salaryName"></span></p>
+			<p ng-bind="x.date"></p>
+		</div>
+	</section>
+</div>

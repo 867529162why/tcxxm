@@ -1,0 +1,33 @@
+.ydl-m{
+    width: 100%;overflow: hidden;
+    .erweima{
+        width: rem(110);height: rem(110);
+        margin: 0 auto;margin-top: rem(230);
+        
+        img{
+            width: 100%;height: 100%;
+        }
+    }
+    .txm{
+        width: 100%;height: rem(30);margin-top: rem(24);
+        line-height: rem(30);font-size: rem(32);
+    }
+    .td{
+        width: 100%;height: rem(184);margin-top: rem(140);
+        display: flex;justify-content: space-around;
+        div{
+            width: rem(306);height: rem(184);
+            background: #00b38a;text-align: center;
+            line-height:  rem(184);
+            font-size: rem(32);
+            a{
+                color: white;
+            }
+        }
+    }
+    .tcdl{
+        width:rem(688);height:rem(100) ;color: white;
+        background: red;line-height:rem(100);font-size: rem(32);
+        margin:rem(55) rem(37) rem(96) rem(37);
+    }
+}

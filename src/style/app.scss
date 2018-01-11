@@ -1,11 +1,30 @@
 html, body {
   height: 100%;
-  color: white;
+  color: black;
   text-align: center;
+  margin: 0;padding: 0;
+  list-style: none;
+  font-size: rem(16);
+  
+}
+*{
+    font-size: rem(32);
+    text-decoration: none;
 }
 .view,.example {
   height: 100%;
 }
+@function rem($why){
+    @return $why/46.875+rem;
+}
 @import "other/header";
 @import "other/body";
 @import "other/footer";
+@import "other/one";
+@import "other/search";
+@import "other/dzzw";
+@import "other/qdl";
+@import "other/tcdl";
+@import "other/tdjl";
+@import "other/zcsj";
+@import "other/xqdl";

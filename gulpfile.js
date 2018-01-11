@@ -16,8 +16,8 @@ var app = {
 // angularJS文件拷贝
 gulp.task('lib', function () {
    gulp.src('bower_components/**/*.js')
-       .pipe(gulp.dest(app.devPath + 'vendor'))
-       .pipe(gulp.dest(app.prodPath + 'vendor'))
+   .pipe(gulp.dest(app.devPath + 'vendor'))
+   .pipe(gulp.dest(app.prodPath + 'vendor'))
     .pipe($.connect.reload());
 });
 
@@ -79,8 +79,9 @@ gulp.task('server', ['build'], function () {
         root: [app.devPath],
         livereload: true,
         port: 1234
+        
     });
-    // open('http://localhost:1234');
+       open('http://localhost:1234');
 
     gulp.watch('bower_components/**/*', ['lib']);
     gulp.watch(app.srcPath + 'script/**/*.js', ['js']);

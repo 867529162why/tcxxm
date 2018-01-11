@@ -1,0 +1,20 @@
+angular.module("app").directive("wdSearch",function(){
+	return{
+		restrict:"A",
+		replace:true,
+		templateUrl:"../view/template/search/searchhead.html"
+	}
+}).directive("wdSearchbody",function(){
+	return {
+		restrict:"A",
+		replace:true,
+		templateUrl:"../view/template/search/searchbody.html",
+		scope:{data:"="}
+	}
+}).directive("wdSearchfoot",function(){
+	return{
+		restrict:"A",
+		replace:true,
+		templateUrl:"../view/template/search/searchfoot.html"
+	}
+});

@@ -1,0 +1,37 @@
+.one-kbc{
+   width: rem(693);height: rem(372);border-radius: rem(5);
+        background: white;margin-bottom:rem(40) ; 
+        .wwwzj1{
+            height: 66.6%;
+        .kb-1{
+        width: 100%;height:50%;
+        padding:rem(50) rem(25);
+        box-sizing: border-box;
+        display: flex;border-bottom: rem(1) solid #ccc;
+        justify-content: space-between;
+        align-items: center;
+        input{
+            outline: none;width:rem(220) ;height: rem(25);
+            border:none;font-size: rem(14);
+        }
+        span{
+            color: red;font-size: rem(32);
+        }
+    }
+        }
+    .zcsj-m{
+     width: 100%;height:33.3%;padding:rem(52) rem(25);
+        box-sizing: border-box;display: flex;
+        justify-content: space-between;
+        align-items: center;
+        input{
+            outline: none;width:rem(220) ;height: rem(25);
+            border:none;font-size: rem(14);
+        }
+        span{width: rem(92);height: rem(40);
+        border: rem(1) solid #ccc;line-height: rem(40) ;
+         color: red;font-size: rem(14);margin-top: rem(18) ;
+        }
+}
+}
+
